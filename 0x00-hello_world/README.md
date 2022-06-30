@@ -12,3 +12,5 @@
 ### 4-puts.c: A C program that prints to the output follwed by a newline
 
 ### 5-printf.c: A C program that prints to the std output using the printf()
+
+### 6-size.c: A C program that prints the size of various types on the computer it is compiled and run on
