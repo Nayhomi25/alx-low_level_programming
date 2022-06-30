@@ -10,3 +10,5 @@
 ### 3-name: This script compiles a C file and creates an executable file named cisfun
 
 ### 4-puts.c: A C program that prints to the output follwed by a newline
+
+### 5-printf.c: A C program that prints to the std output using the printf()
