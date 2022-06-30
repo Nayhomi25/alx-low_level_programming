@@ -14,3 +14,5 @@
 ### 5-printf.c: A C program that prints to the std output using the printf()
 
 ### 6-size.c: A C program that prints the size of various types on the computer it is compiled and run on
+
+### 100-intel: A script that generates the assembly code of a C code using intel syntax
