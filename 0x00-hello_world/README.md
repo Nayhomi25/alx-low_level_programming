@@ -16,3 +16,5 @@
 ### 6-size.c: A C program that prints the size of various types on the computer it is compiled and run on
 
 ### 100-intel: A script that generates the assembly code of a C code using intel syntax
+
+### 101-quote.c: A C program that print to output without using printf() or puts()
