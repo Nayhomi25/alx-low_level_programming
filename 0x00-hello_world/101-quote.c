@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
 
-/** main - Entry point
+/**
+ * main - Entry point
  *
- * Description: 'print to output without using printf or puts'
+ * Description: 'and that piece of art is useful" - Dora Korpar, 2015-10-19'
  *
- * Return: Always return 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
