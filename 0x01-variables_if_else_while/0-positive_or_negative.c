@@ -2,14 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
  *
- * Description: create a program that will assign randmon number to variable n
- * and print whether n is positive or negative
- *
- * Return: Always return 0 (success)
- *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
