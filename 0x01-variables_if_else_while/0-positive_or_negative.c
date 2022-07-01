@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main - Entry point
+/*
+ * main - Entry point
  *
  * Description: create a program that will assign randmon number to variable n
  * and print whether n is positive or negative
@@ -27,7 +28,7 @@ int main(void)
 	} else if (n > 0)
 
 	{
-		
+
 		printf("%d is positive\n", n);
 
 	} else
