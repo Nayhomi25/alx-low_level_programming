@@ -23,8 +23,8 @@ int main(void)
 			if (t == 8 && o == 9)
 				continue;
 
-				putchar(',');
-				putchar(' ');
+			putchar(',');
+			putchar(' ');
 
 		}
 	}
