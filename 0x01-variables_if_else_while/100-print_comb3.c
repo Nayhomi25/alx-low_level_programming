@@ -20,7 +20,7 @@ int main(void)
 			putchar(t + '0');
 			putchar(o + '0');
 
-			if (!( t == 9 && o ==9))
+			if (!(t == 9 && o == 9))
 			{
 				putchar(',');
 				putchar(' ');
