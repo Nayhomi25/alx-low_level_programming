@@ -20,15 +20,16 @@ int main(void)
 			putchar(t + '0');
 			putchar(o + '0');
 
-			if (!(t == 9 && o == 9))
-			{
+			if (t == 8 && o == 9)
+				continue;
+
 				putchar(',');
 				putchar(' ');
-			}
+
 		}
 	}
 
-	putchar('\n');
+	/*putchar('\n');*/
 
 	return (0);
 
