@@ -2,15 +2,27 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * _putchar - prints"_putchar" to the stdout
  *
- * Return: Always 0 (success)
+ *
+ * @c: the character to be printed
+ *
+ *
+ * Return:  nothing
  *
  */
 
-int main(void)
+int _putchar(char c)
 {
-	write(1, "_putchar\n", 12);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	return (1);
+
 }
