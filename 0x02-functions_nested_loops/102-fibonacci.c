@@ -11,7 +11,7 @@
 int main(void)
 {
 	int fib;
-	long unsigned int n1 = 0, n2 = 1, n3;
+	unsigned long n1 = 0, n2 = 1, n3;
 
 	for (fib = 0; fib < 50; fib++)
 	{
