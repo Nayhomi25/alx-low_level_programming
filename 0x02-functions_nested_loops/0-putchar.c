@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * printputchar - prints "_putchar" to the stdout
+ *main - prints "_putchar" to the stdout
  *
  * Return:  0
  *
@@ -19,7 +19,7 @@
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	
+
 	return (0);
 
 }
