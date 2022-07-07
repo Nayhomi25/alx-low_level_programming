@@ -4,9 +4,9 @@
  * main - prints the first 98 fibonacci numbers
  *
  *Return: Always 0
+ */
 
- /
-
+int main(void)
 {
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
@@ -39,8 +39,9 @@
 
 		printf("%lu%lu", half1, half2);
 		if (count != 98)
+		{
 			printf(", ");
-
+		}
 		fib1_half1 = fib2_half1;
 		fib1_half2 = fib2_half2;
 		fib2_half1 = half1;
