@@ -10,17 +10,16 @@ int main(void)
 {
 	int i;
 
-	for (i = 1; i <= 100; i++);
-	{
-		if (i % 15 == 0);
+	for (i = 1; i <= 100; i++)
+		if (i % 15 == 0)
 		{
 			printf("FizzBuzz ");
 		}
-		else if ((i % 3) == 0)
+		else if (i % 3 == 0)
 		{
 			printf("Fizz ");
 		}
-		else if ((i % 5) == 0);
+		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
 		}
@@ -28,9 +27,6 @@ int main(void)
 		{
 			printf("%d ", i);
 		}
-
-	}
 	printf("\n");
-
 	return (0);
 }
