@@ -7,7 +7,7 @@
  * Return: the integer value of the converted string
  */
 
-int _atoi(char, *s)
+int _atoi(char *s)
 {
 	int sign = 1;
 	unsigned int = 0;
