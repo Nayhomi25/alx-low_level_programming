@@ -8,15 +8,9 @@
 
 void _print_rev_recursion(char *s)
 {
-	int i, l;
-	char temp;
-
-	if (i < l / 2)
+	if (*s)
 	{
-		temp = s[i];
-		s[i] = s[l - i - 1];
-		s[l - i - 1] = temp;
-		i++;
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
-	_putchar(*s);
 }
