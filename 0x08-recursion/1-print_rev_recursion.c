@@ -15,7 +15,7 @@ void _print_rev_recursion(char *s)
 	{
 		temp = s[i];
 		s[i] = s[l - i - 1];
-		s[l - i - 1] = tempo;
+		s[l - i - 1] = temp;
 		i++;
 	}
 	_putchar(*s);
