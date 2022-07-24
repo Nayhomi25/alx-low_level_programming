@@ -3,8 +3,8 @@
 
 /**
  * main - prints its name followed by a new line
- * @argc - argument count
- * @argv - pointer to argument strings
+ * @argc: argument count
+ * @argv: pointer to argument strings
  *
  * Return: 0
  */
