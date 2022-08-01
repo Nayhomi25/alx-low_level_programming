@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	printf("File :$s\n", __BASE_FILE__);
+	printf("File :%s\n", __BASE_FILE__);
 	return (0);
 }
