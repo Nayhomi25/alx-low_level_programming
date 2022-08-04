@@ -14,8 +14,7 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	int num = 0; 
-	unsigned int i;
+	unsigned int i, num = 0;
 	va_list add;
 
 	if (n == 0)
