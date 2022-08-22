@@ -3,39 +3,35 @@
 #include "main.h"
 
 /**
- * read_textfile - that reads a text file and prints
+ * append_text_to_file - that appends text at the end of a file
  * @filename: variable pointer
- * @letters: size letters
- * Description: Write a function that reads a text file and prints it
- * to the POSIX standard output.
- * Return: the actual number of letters it could read and print, 0 otherwise
+ * @text_content: content file
+ * Description: function that appends text at the end of a file
+ * Return: 1 on success, -1 on failure
  */
 
-ssize_t read_textfile(const char *filename, size_t letters)
+int append_text_to_file(const char *filename, char *text_content)
 {
-	ssize_t file, let, w;
-	char *text;
-
-	text = malloc(letters);
-	if (text == NULL)
-		return (0);
+	int i = 0, file;
 
 	if (filename == NULL)
-		return (0);
+		return (-1);
 
-	file = open(filename, O_RDONLY);
+	if (text_content == NULL)
+		text_content = "";
 
-	if (file == -1)
+
+	while (text_content[i] != '\0')
 	{
-		free(text);
-		return (0);
+		i++;
 	}
 
-	let = read(file, text, letters);
+	file = open(filename, O_WRONLY | O_APPEND);
 
-	w = write(STDOUT_FILENO, text, let);
+	if (file == -1)
+		return (-1);
 
-	close(file);
+	write(file, text_content, i);
 
-	return (w);
+	return (1);
 }
